@@ -1,0 +1,61 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+}
+
+#characterName{
+    background-color: aliceblue;
+    color: black;
+    padding: 15px;
+    width: 345px;
+    font-size: 35px;
+    outline: none;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    margin-top: 25px;
+    background-color: #bae461;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1da7a1;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #c8f16d;
+}
+
+#contentAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
